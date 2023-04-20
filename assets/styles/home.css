@@ -3,17 +3,23 @@
     padding: 0;
     font-family: 'JetBrains Mono', monospace;
     text-decoration: none;
+    overflow: hidden;
 }
 
 #home-text{
-    font-weight: bolder;
-    padding: 15% 10%;
+    font-weight: bold;
+    padding: 14% 10%;
     color: #E5383B;
-    font-size: 100px;
-    line-height: 128px;
+    font-size: 120px;
+    line-height: 168px;
+    float: left;
 }
 
 #pfp{
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 450px;
+    padding-top: 14%;
+    padding-right: 10%;
+    float: right;
+    display: inline;
 }
