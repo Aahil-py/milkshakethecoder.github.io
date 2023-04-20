@@ -1,34 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500,600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    }
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+}
 
-    html{
-        background-color: #161A1D;
-    }
+html{
+    background-color: #161A1D;
+}
 
-    nav{
-        width: 100%;
-        background-color: #0B090A;
-        text-align: center;
-        display: flex;
-        position: absolute;
-        justify-content: center;
-    }
+nav{
+    width: 100%;
+    background-color: #0B090A;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
 
-    button{
-        background-color: #E5383B;
-        border-radius: 50px;
-        box-sizing: border-box;
-        margin: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 32px;
-    }
-    button :hover{
-        background-color: #660708;
-    }
-    
+button{
+    background-color: #E5383B;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify content for centering items */
+    justify-content: center;
+    align-items: center;
+    /* padding for top and left right; top bottom */
+    padding: 12px 32px;
+    font-weight: 550;
+    font-size: large;
+
+}
+
+button :hover{
+    background-color: #660708;
+}
