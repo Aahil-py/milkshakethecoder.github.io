@@ -7,8 +7,13 @@
 
 #home-text{
     font-weight: bolder;
-    padding: 15.67% 10%;
+    padding: 15% 10%;
     color: #E5383B;
     font-size: 100px;
-    line-height: 120px;
+    line-height: 128px;
+}
+
+#pfp{
+    width: 200px;
+    height: 200px;
 }
