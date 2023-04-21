@@ -15,11 +15,13 @@ nav{
     background-color: #0B090A;
     text-align: center;
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: center;
+    font-weight: lighter;
+    font-size: large;
 }
 
-button{
+.button{
     background-color: #E5383B;
     border-radius: 50px;
     box-sizing: border-box;
@@ -33,9 +35,24 @@ button{
     padding: 12px 32px;
     font-weight: 550;
     font-size: large;
-
+    color: #161A1D;
 }
 
-button :hover{
+#button :hover{
     background-color: #660708;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: #E5383B;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #B1A7A6;
+}
+::-webkit-scrollbar-track{
+    background-color: #0B090A;
+
 }
