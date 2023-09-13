@@ -5,6 +5,13 @@
     text-decoration: none;
 }
 
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
 h3{
     color: #E5383B;
     font-size: 40px;
@@ -21,10 +28,6 @@ h3, p{
 
 /* landing page for experience */
 #exp-landing{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    align-items: center;
     height: 100vh;
 }
 
@@ -35,23 +38,117 @@ h3, p{
     font-size: 110px;
 }
 
-#exp-python-card{
+#exp-python-container{
     width: 30%;
     padding-right: 100px;
 }
 
-#python-img{
+#python-card{
     background: #21262A;
     box-sizing: border-box;
     border-radius: 24px;
     justify-content: center;
     align-items: center;
+    display: flex, vertical;
+    width: min-content;
 }
 
-#python-img img{
+#python-card img{
     padding: 15px;
     border-radius: 24px;
-    width: 575px;
-    height: 425 px;
-    justify-self: center;
+    width: 525px;
+    height: 375 px;
+}
+
+#py-text-container{
+    background: #2E3337;
+    box-sizing: border-box;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#py-text-container p{
+    padding: 3% 3%;
+}
+
+/* github section */
+#github{
+    height: 101.5vh;
+}
+
+#github-container{
+    width: 70%;
+}
+
+#github-card{
+    background: #21262A;
+    box-sizing: border-box;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex, vertical;
+    width: min-content;
+}
+
+#github-card img{
+    padding: 15px;
+    border-radius: 24px;
+    width: 1400px;
+    height: 900 px;
+}
+
+#git-text-container{
+    background: #2E3337;
+    box-sizing: border-box;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#git-text-container p{
+    padding: 3% 3%;
+}
+
+/* information */
+#information{
+    height: 30vh;
+}
+
+#langs-group{
+    background: #21262A;
+    box-sizing: border-box;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex, vertical;
+    width: min-content;
+}
+
+.information-button{
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    /* justify content for centering items */
+    justify-content: center;
+    align-items: center;
+    /* padding for top and left right; top bottom */
+    padding: 12px 32px;
+    font-weight: 550;
+    font-size: large;
+    color: #161A1D;
+}
+
+.information-button img{
+    padding: 15px;
+    border-radius: 24px;
+    width: px;
+    height: 900 px;
 }

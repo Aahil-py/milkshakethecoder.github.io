@@ -25,7 +25,7 @@
         <!-- Navbar -->
         <nav>
             <!-- i put the button tag inside <a href> so that i could have it redirect to a page within this folder. -->
-            <a href="index.html" class="button">index</a>
+            <a href="index.html" class="button">Home</a>
             <a href="about.html" class="button">About</a>
             <a href="experience.html" class="button">Experience</a>
             <a href="projects.html" class="button">Projects</a>
@@ -34,10 +34,47 @@
 
         <section id="exp-landing">
             <h1 id="exp-header">Experience</h1>
-            <div id="exp-python-card">
+            <div id="exp-python-container">
                 <h3>Python</h3>
-                <div id="python-img">
+                <div id="python-card">
                     <img src="/assets/img/python-cert.png" alt="My Python Certification from Codecademy's premium course.">
+                    <div id="py-text-container">
+                        <p>I have completed many basic python courses, one of which is this CodeCademy Python Course, which went over many quintessential Python topics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="github">
+            <!-- the actual text and card -->
+            <div id="github-container">
+                <h3>GitHub</h3>
+                <!-- the image and text -->
+                <div id="github-card">
+                    <img src="/assets/img/github2.png" alt="My GitHub repositories.">
+                    <!-- container for the text -->
+                    <div id="git-text-container">
+                        <p>I have used GitHub and Git interactions to post my code online, so that other people could see and review it. GitHub allowed me to practice use of iterative programming and helped me keep track and compare versions of my code. I have a basic knowledge of GitHub usage and it has helped me connect with other like-minded programmers who share their opinion on my code and help me improve it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- the whole info section -->
+        <section id="information">
+            <!-- just langs and sub parts -->
+            <div id="langs-container">
+                <h3>Programming Languages</h3>
+                <div id="langs-group">
+                    <div class="information-button">
+                        <img src="/assets/img/icons/python.png"><p>Python</p>
+                    </div>
+                    <div class="information-button">
+                        <img src="/assets/img/icons/html.png"><p>HTML</p>
+                    </div>
+                    <div>
+                        <img src="/assets/img/icons/css.png"><p>CSS</p>
+                    </div>
                 </div>
             </div>
         </section>
