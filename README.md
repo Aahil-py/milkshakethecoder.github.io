@@ -1,7 +1,13 @@
 # the007programmer.github.io
 
-This is my source code for my website, [the007programmer.github.io](https://the007programmer.github.io). Its hosted using github pages. Please Check it out.
+### What is it?
 
-### Note: 
+This site is a personal portfolio, encompassing all of my accomplishments. It has evolved into a small passion project of mine, with work dating all the way back to 2021.
 
-I will be testing on my beta-website, and then I will be updating the code here, so commits will be less frequent.
+### Hosting:
+
+Credit to Github Pages for 24/7 site hosting... [get yours today!](https://pages.github.com/)
+
+### Additional Notes: 
+
+- The work will primarily be beta tested via [Visual Studio Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server), and then pushed to this repository, so updates will not be as frequent.
