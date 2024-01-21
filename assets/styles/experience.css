@@ -127,10 +127,8 @@ h3, p{
 }
 
 #langs-container h3{
-    margin: 5px;
+    padding: 5%;
 }
-
-/* fix redundant buttons, combine button2 and info button */
 
 #langs-group{
     background: #21262A;
@@ -140,6 +138,10 @@ h3, p{
     align-items: center;
     display: flex;
     width: min-content;
+}
+
+#langs-group p{
+    color: #161A1D !important;
 }
 
 .information-button{
