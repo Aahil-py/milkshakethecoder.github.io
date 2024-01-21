@@ -38,19 +38,6 @@ nav{
     color: #161A1D;
 }
 
-.button2{
-    border-radius: 50px;
-    box-sizing: border-box;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    /* justify content for centering items */
-    justify-content: center;
-    align-items: center;
-    /* padding for top and left right; top bottom */
-    color: #161A1D;
-}
-
 /* custom scrollbar */
 ::-webkit-scrollbar{
     width: 15px;

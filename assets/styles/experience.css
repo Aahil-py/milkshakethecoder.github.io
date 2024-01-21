@@ -121,7 +121,12 @@ h3, p{
 
 #langs-container{
     width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* fix redundant buttons, combine button2 and info button */
 
 #langs-group{
     background: #21262A;
@@ -138,14 +143,11 @@ h3, p{
     box-sizing: border-box;
     margin: 10px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     /* justify content for centering items */
     justify-content: center;
     align-items: center;
     /* padding for top and left right; top bottom */
-    padding: 12px 32px;
-    font-weight: 550;
-    font-size: large;
     color: #161A1D;
 }
 
