@@ -119,18 +119,18 @@ h3, p{
     height: 30vh;
 }
 
-#langs-container{
+#experience-container{
     width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#langs-container h3{
+#experience-container h3{
     padding: 10px;
 }
 
-#langs-group{
+#button-group{
     background: #21262A;
     box-sizing: border-box;
     border-radius: 50px;
@@ -140,7 +140,7 @@ h3, p{
     width: min-content;
 }
 
-#langs-group p{
+#button-group p{
     color: #161A1D !important;
 }
 
