@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500,600;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=JetBrains+Mono:500,700|Inter:600");
 * {
     margin: 0;
     padding: 0;
     font-family: 'JetBrains Mono', monospace;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
 }
 
-html{
-    background-color: #161A1D;
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: #161A1D;
 }
 
 nav{
@@ -19,6 +26,14 @@ nav{
     justify-content: center;
     font-weight: lighter;
     font-size: large;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
 }
 
 .button{
@@ -56,3 +71,4 @@ nav{
     background-color: #0B090A;
 
 }
+
