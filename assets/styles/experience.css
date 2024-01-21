@@ -138,8 +138,7 @@ h3, p{
     box-sizing: border-box;
     margin: 10px;
     display: flex;
-    flex-direction: row;
-    display: inline;
+    flex-direction:row;
     /* justify content for centering items */
     justify-content: center;
     align-items: center;
