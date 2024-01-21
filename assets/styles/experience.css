@@ -1082,19 +1082,6 @@ h3, p{
     line-height: normal;
   }
   
-  .experience .contact {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 12px 32px;
-    position: absolute;
-    top: 0;
-    left: 693px;
-    border-radius: 50px;
-    background: linear-gradient(180deg, rgb(229, 56, 59) 0%, rgb(229, 56, 59) 99.98%, rgb(62.44, 113.74, 245.65) 99.99%);
-  }
-  
   .experience .text-wrapper-9 {
     position: relative;
     width: fit-content;
@@ -1107,7 +1094,7 @@ h3, p{
     line-height: 24px;
     white-space: nowrap;
   }
-    
+
 :root {
     --primarywhite-1: rgba(255, 255, 255, 1);
     --primarywhite-2: rgba(255, 255, 255, 0.8);
