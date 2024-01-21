@@ -162,3 +162,7 @@ h3, p{
     padding: 10px;
     border-radius: 24px;
 }
+
+.information-button p{
+    padding: 10px;
+}
