@@ -126,6 +126,10 @@ h3, p{
     align-items: center;
 }
 
+#langs-container h3{
+    margin: 5px;
+}
+
 /* fix redundant buttons, combine button2 and info button */
 
 #langs-group{
