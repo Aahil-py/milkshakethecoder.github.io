@@ -119,13 +119,17 @@ h3, p{
     height: 30vh;
 }
 
+#langs-container{
+    width:100%;
+}
+
 #langs-group{
     background: #21262A;
     box-sizing: border-box;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
-    display: flex, vertical;
+    display: flex;
     width: min-content;
 }
 
