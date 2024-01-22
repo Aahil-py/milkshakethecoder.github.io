@@ -28,7 +28,9 @@ h3, p{
 
 /* landing page for experience */
 #exp-landing{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
 }
 
 #exp-header{
@@ -76,7 +78,9 @@ h3, p{
 
 /* github section */
 #github{
-    height: 101.5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
 }
 
 #github-container{
