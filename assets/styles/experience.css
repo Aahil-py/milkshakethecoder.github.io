@@ -10,7 +10,9 @@ section{
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
+    display: flex;
     padding: 7%;
+    
 }
 
 h3{
@@ -29,7 +31,7 @@ h3, p{
 
 /* landing page for experience */
 #exp-landing{
-    flex-direction: row;
+    height: 100vh;
 }
 
 #exp-header{
